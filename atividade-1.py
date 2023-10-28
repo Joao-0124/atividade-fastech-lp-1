@@ -27,5 +27,10 @@ while True:
         idade_menor_resp = atendimento
     if (input("Deseja Continuar? (S, N)" )) != "S":
         break
-print(idade_menor, idade_menor_resp) 
-print(idade_maior, idade_maior_resp)
+print("Total de pessoas que responderam", cont)
+print("A quantidade de pessoas que receberam otimo foi:\n" , contO)
+print("A quantidade de pessoas que receberam bom foi:\n" , contB)
+print("A quantidade de pessoas que receberam regular foi:\n" , contR)
+print("A quantidade de pessoas que receberam pessimo foi:\n" , contP)
+print("O mais Novo tem" , idade_menor, "anos, e sua resposta foi" , idade_menor_resp) 
+print("O mais Velho tem" , idade_maior, "anos e sua resposta foi" , idade_maior_resp)
